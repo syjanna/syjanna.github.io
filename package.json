@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://syjanna.github.io",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.0"
+  },
   "dependencies": {
     "axios": "^0.19.0",
     "react": "^16.9.0",
@@ -16,7 +20,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
