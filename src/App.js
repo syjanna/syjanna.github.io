@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 
-const API_PATH = 'https://evening-forest-23552.herokuapp.com/api/contact/index.php';
+const API_PATH = '/syjanna.github.io/api/contact/index.php';
 
 class App extends Component{
 
