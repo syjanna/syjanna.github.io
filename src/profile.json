@@ -1,0 +1,38 @@
+{
+  "education": [
+    {
+      "name": "McMaster University",
+      "degree": "B.Sc. in Computer Science",
+      "graduationYear": 2020
+    }
+  ],
+  "experiences": [
+    {
+      "companyName": "IBM",
+      "url": "http://www.ibm.com",
+      "title": "software developer intern",
+      "location": "Markham, ON",
+      "startDate": "2018-05-01",
+      "endDate": "2019-08-31",
+      "desc": "I was a software engineer here"
+    },
+    {
+      "companyName": "Venture Engineering and Science",
+      "url": "www.ibm.com",
+      "title": "software developer intern",
+      "location": "Markham, ON",
+      "startDate": "2018-05-01",
+      "endDate": "2019-08-31",
+      "desc": "I was a software engineer here"
+    },
+    {
+      "companyName": "McMaster University",
+      "url": "www.ibm.com",
+      "title": "software developer intern",
+      "location": "Markham, ON",
+      "startDate": "2018-05-01",
+      "endDate": "2019-08-31",
+      "desc": "I was a software engineer here"
+    }
+  ]
+}

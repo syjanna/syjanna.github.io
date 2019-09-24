@@ -20,18 +20,8 @@
 .App-link {
   color: #09d3ac;
 } */
+@import url('https://fonts.googleapis.com/css?family=Caveat');
 
-* {
-    box-sizing: border-box;
-}
- .App {
-     max-width: 420px;
-     margin: 0 auto;
-}
- p {
-     text-align: center;
-     font-weight: 500;
-}
  input[type=text],input[type=email], select, textarea {
      width: 100%;
      padding: 12px;
@@ -53,8 +43,49 @@
  input[type=submit]:hover {
      background-color: #45a049;
 }
- .container {
-     border-radius: 5px;
-     background-color: #f2f2f2;
-     padding: 20px;
+
+
+mynav-bar {
+
+}
+
+.jumbotron {
+  /* soon. background-image: url("cutie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light; */
+}
+
+.pretty-link { color: #bababa; }
+
+.pretty-link:hover { color: #7d7d7d; text-decoration: none; transition: color 0.2s ease-in;}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
