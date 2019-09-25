@@ -52,6 +52,7 @@ class Profile extends React.Component {
           </Col>
         </Row>
       </Container>
+      <br/>
       <div class="footer"></div>
       </div>
     );
