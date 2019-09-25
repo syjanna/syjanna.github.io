@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import Pdf from '../resume.pdf';
 
+
+// todo: decorations, github api to showcase projects, contact me to syjanna1@gmail.com( not as important), deploy with aws
+
 class Header extends React.Component {
   constructor(props){
     super(props);
@@ -42,7 +45,7 @@ class Header extends React.Component {
                 <NavLink href="https://github.com/syjanna"><FontAwesomeIcon icon={faGithub}  /></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.linkedin.com/in/janna1/"><FontAwesomeIcon icon={faLinkedin} /></NavLink>
+                <NavLink href="https://www.linkedin.com/in/syjanna/"><FontAwesomeIcon icon={faLinkedin} /></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

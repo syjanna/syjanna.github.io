@@ -44,10 +44,11 @@
      background-color: #45a049;
 }
 
-
-mynav-bar {
-
+div.footer {
+  height: 50px;
+  background-color: #bababa;
 }
+
 
 .jumbotron {
   /* soon. background-image: url("cutie.jpg");

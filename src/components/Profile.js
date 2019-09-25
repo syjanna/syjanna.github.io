@@ -2,16 +2,18 @@ import React from 'react';
 import { Container, Row, Col } from "reactstrap";
 import profile from "../profile";
 
-
 class Profile extends React.Component {
   constructor(props) {
     super(props);
-
+    this.state = {
+      git_projects: []
+    };
   }
 
-
   render() {
+    const { git_projects = [] } = this.state;
     return (
+      <div>
       <Container>
         <Row>
           <Col xs="2">
@@ -22,7 +24,7 @@ class Profile extends React.Component {
 
               return (
                 <div key={i}>
-                  <h5> <a class="pretty-link" href={experience.url}>{experience.companyName}</a> </h5>
+                  <h5> <a className="pretty-link" href={experience.url}>{experience.companyName}</a> </h5>
                   <subtitle> {experience.title} </subtitle>
                   <p> {experience.location}, {experience.startDate} to {experience.endDate}</p>
                   <p> {experience.desc} </p>
@@ -50,6 +52,8 @@ class Profile extends React.Component {
           </Col>
         </Row>
       </Container>
+      <div class="footer"></div>
+      </div>
     );
   }
 }
