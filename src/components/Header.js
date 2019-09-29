@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import Pdf from '../resume.pdf';
 
 
-// todo: decorations, github api to showcase projects, contact me to syjanna1@gmail.com( not as important), deploy with aws
+
 
 class Header extends React.Component {
   constructor(props){
@@ -34,9 +34,6 @@ class Header extends React.Component {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink href="/profile/">Profile</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/contact/">Contact Me</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href={Pdf} target="_blank">Resume</NavLink>
